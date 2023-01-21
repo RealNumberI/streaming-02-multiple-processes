@@ -24,14 +24,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import? sqlite3, time, multiiprocessing, os, datetime, platform, sys
-1. Where do we set the task_duration?  second to last line
-1. How many functions are defined? 7
-1. What are the function names? create_table, drop_table, insert_pet, process_one, process_two, process_three, recreate_database
-1. In general, what does each function do? names and defines a set of instructions
-1. Where does the execution begin? With if __name__ == "__main__":
-1. How many processes do we start?  3
-1. How many records does each process insert?  6
+1. What libraries did we import? **sqlite3, time, multiiprocessing, os, datetime, platform, sys**
+1. Where do we set the task_duration?  **second to last line**
+1. How many functions are defined? **7**
+1. What are the function names? **create_table, drop_table, insert_pet, process_one, process_two, process_three, recreate_database**
+1. In general, what does each function do? **names and defines a set of instructions**
+1. Where does the execution begin? With if **__name__ == "__main__":**
+1. How many processes do we start?  **3**
+1. How many records does each process insert?  **6**
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
@@ -95,7 +95,7 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?
+- What error do you get?  
 - Can you tell what line it was executing when it failed?
 
 
@@ -103,8 +103,8 @@ When you get an error, read them carefully.
 
 Do a web search on the sqlite3 'database is locked' error.
 
-- What do you learn?  https://www.sysinfotools.com/blog/sqlite-database-is-locked/  "The error occurs mainly when a user executes two inappropriate transactions in any database against the same connection."  There are multiple ways this could happen.
-- Once a process fails, it crashes the main process and everything stops. 
+- What do you learn?  **https://www.sysinfotools.com/blog/sqlite-database-is-locked/  "The error occurs mainly when a user executes two inappropriate transactions in any database against the same connection."  There are multiple ways this could happen.
+- Once a process fails, it crashes the main process and everything stops. **
 
 ## Deadlock
 
