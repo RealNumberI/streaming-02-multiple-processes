@@ -12,12 +12,12 @@ hitting a shared database at the same time.
 ## Prerequisite
 
 Complete the setup at [streaming-01-getting-started](https://github.com/denisecase/streaming-01-getting-started).
-DONE
+**DONE**
 
 ## About
 
 Execute about.py to generate some useful information.
-DONE  about.txt was generated.
+**DONE  about.txt was generated.**
 
 ## First Run
 
