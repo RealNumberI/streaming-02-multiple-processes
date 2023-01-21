@@ -56,7 +56,7 @@ we end up with an error.
 I didn't end up with an error, although the records were inserted at a different rate.
 
 How well do the multiple, concurrent processes share a database when each task can take more time?
-**If one task takes more time than another, I coudl see that the longer task might hang up the shorter task.**
+**If one task takes more time than another, I could see that the longer task might hang up the shorter task.**
 How can we let multiple processes share a resource without interfering with each other?
   **I suppose you could let them run sequentially, but that would be time consuming.  Making sure they have the appropriate amount of time to run and not interfere with each other seems important in this exercise.**
 
@@ -104,8 +104,8 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?  
-- Can you tell what line it was executing when it failed?
+- What error do you get?  **I didn't get any locked data errors.  Just errors about not finding variables.**
+- Can you tell what line it was executing when it failed?  **The error messaging told and and highlighted errors.**
 
 
 ## Database Is Locked Error
