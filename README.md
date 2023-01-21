@@ -113,7 +113,7 @@ When you get an error, read them carefully.
 Do a web search on the sqlite3 'database is locked' error.
 
 - What do you learn?  **https://www.sysinfotools.com/blog/sqlite-database-is-locked/  "The error occurs mainly when a user executes two inappropriate transactions in any database against the same connection."  There are multiple ways this could happen.**
-- Once a process fails, it crashes the main process and everything stops. **
+- Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock
 
