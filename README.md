@@ -12,10 +12,12 @@ hitting a shared database at the same time.
 ## Prerequisite
 
 Complete the setup at [streaming-01-getting-started](https://github.com/denisecase/streaming-01-getting-started).
+DONE
 
 ## About
 
 Execute about.py to generate some useful information.
+DONE  about.txt was generated.
 
 ## First Run
 
@@ -50,6 +52,13 @@ With the longer tasks, we now get into trouble -
 one process will have the database open and be working on it - 
 then when another process tries to do the same, it can't and 
 we end up with an error. 
+
+I didn't end up with an error, although the records were inserted at a different rate.
+
+How well do the multiple, concurrent processes share a database when each task can take more time?
+**If one task takes more time than another, I coudl see that the longer task might hang up the shorter task.**
+How can we let multiple processes share a resource without interfering with each other?
+  **I suppose you could let them run sequentially, but that would be time consuming.  Making sure they have the appropriate amount of time to run and not interfere with each other seems important in this exercise.**
 
 ## Document Results After Each Run
 
