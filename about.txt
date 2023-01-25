@@ -5,23 +5,23 @@
 
  Welcome! 
 
- It's 2023-01-17 at 09:30 AM
+ It's 2023-01-24 at 08:25 PM
 
  This file is running on:    nt Windows 10
  
- The Python version is:      3.10.8
+ The Python version is:      3.10.9
  
  The Python interpreter is at: 
- C:\Users\dodod\AppData\Local\Programs\Python\Python310\python.exe
+ c:\Users\dodod\OneDrive\Documents\GitHub\streaming-02-multiple-processes-main\.conda\python.exe
 
  The active environment should be either conda OR pip (one should be None):
 
-     Active conda env is: None
+     Active conda env is: c:\Users\dodod\OneDrive\Documents\GitHub\streaming-02-multiple-processes-main\.conda
      Active pip env is:   None
  
  The path to the active virtual environment is:
 
- C:\Users\dodod\AppData\Local\Programs\Python\Python310
+ c:\Users\dodod\OneDrive\Documents\GitHub\streaming-02-multiple-processes-main\.conda
  
  The Current Working Directory (CWD) where this command was launched is:
 
